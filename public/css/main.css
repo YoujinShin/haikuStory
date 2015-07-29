@@ -1,22 +1,59 @@
+#bttn_1 {
+	position: absolute;
+	z-index: 10;
+	width: 8px;
+	height: 8px;
+	margin-left: -350px;
+	left: 50%;
+	top: 14%;
+	background-color: rgba(255,0,0,0.6);
+	border: 1px solid rgba(255,0,0,0.6);
+	border-radius: 3px;
+}
 
+#bttn_2 {
+	position: absolute;
+	z-index: 10;
+	width: 8px;
+	height: 8px;
+	margin-left: -335px;
+	left: 50%;
+	top: 14%;
+	/*background-color: red;*/
+	border: 1px solid rgba(255,0,0,0.6);
+	border-radius: 3px;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+#bttn_3 {
+	position: absolute;
+	z-index: 10;
+	width: 8px;
+	height: 8px;
+	margin-left: -320px;
+	left: 50%;
+	top: 14%;
+	/*background-color: red;*/
+	border: 1px solid rgba(255,0,0,0.6);
+	border-radius: 3px;
+}
 
+.1_img {
+	visibility: visible;
+}
 
+#mountain {
+	position: absolute;
+	width: 700px;
+	margin-left: -350px;
+	left: 50%;
+	top: 15%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ship {
+	position: absolute;
+	width: 500px;
+	margin-left: -350px;
+	left: 50%;
+	bottom: 15%;
+}
 
