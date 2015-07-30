@@ -53,7 +53,75 @@
 	position: absolute;
 	width: 500px;
 	margin-left: -350px;
+	/*left: -300px;*/
 	left: 50%;
 	bottom: 15%;
 }
+
+#duck {
+	position: absolute;
+	width: 68px;
+
+	right: -100px;
+	/*right: 50%;*/
+	/*margin-right: -48px;*/
+
+	bottom: 15%;
+	margin-bottom: 60px;
+}
+
+#line {
+	position: absolute;
+	right: 50%;
+	margin-right: 128px;
+
+	bottom: 15%;
+	margin-bottom: 26px;
+	width: 120px;
+}
+
+.poem {
+	color: grey;
+	font-family: arial;
+	font-size: 12px;
+	letter-spacing: 2px;
+	
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	margin-top: 0px;
+	line-height: 180%;
+}
+
+#poem_1 {
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
