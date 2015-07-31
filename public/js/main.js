@@ -67,6 +67,8 @@ function secondPoem() {
 function thirdPoem() {
 
 	console.log('third poem');
+	d3.select('#arrow').transition().duration(2000)
+		.style('opacity', 0);
 	// selectBttn3();
 	third_draw = true;
 
