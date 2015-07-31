@@ -1,6 +1,7 @@
 ## Haiku Poems by Richard Wright 
 
 I see Haiku as a careful 'selection' of words.
+It's like oriental paintings with 'beauty of space'.
 
 
 - Technology: Heroku, Node.js, jQuery
