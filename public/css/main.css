@@ -7,6 +7,8 @@ body {
 	font-family: "neue", arial;
 }
 
+
+/* button */
 .bttn {
 	position: absolute;
 	z-index: 10;
@@ -35,28 +37,41 @@ body {
 	height: 2px;
 }
 
+
+/* title */
 #title {
 	position: absolute;
+	z-index: 10;
 	left: 5%;
 	top: 8%;
 	margin-top: 24px;
 	font-size: 12px;
 }
 
-.1_img {
+
+/* image */
+#img_1 {
 	visibility: visible;
 }
 
-.2_img {
-	visibility: hidden;
+#img_2 {
+	visibility: visible;
 }
 
+#img_3 {
+	visibility: visible;
+}
+
+
+/* individual image */
 #mountain {
 	position: absolute;
 	width: 700px;
 	margin-left: -350px;
 	left: 50%;
-	top: 15%;
+
+	bottom: 50%;
+	margin-bottom: 50px;
 }
 
 #ship {
@@ -64,7 +79,9 @@ body {
 	width: 500px;
 	margin-left: -350px;
 	left: 50%;
-	bottom: 15%;
+
+	top: 50%;
+	margin-top: 162px;
 }
 
 #duck {
@@ -72,9 +89,8 @@ body {
 	width: 68px;
 
 	right: 30%;
-	/*margin-right: -300px;*/
-	bottom: 15%;
-	margin-bottom: 60px;
+	top: 50%;
+	margin-top: 160px;
 }
 
 #line {
@@ -82,11 +98,104 @@ body {
 	right: 50%;
 	margin-right: 128px;
 
-	bottom: 15%;
-	margin-bottom: 26px;
-	width: 120px;
+	top: 50%;
+	margin-top: 220px;
+	width: 220px;
 }
 
+#bg {
+	position: absolute;
+	z-index: 10;
+	bottom: 10%;
+	width: 194px;
+	left: 50%;
+	margin-left: -600px;
+	margin-bottom: 60px;
+}
+
+#walking {
+	position: absolute;
+	z-index: 2;
+	bottom: 10%;
+	width: 1200px;
+	left: 0px;
+	/*left: 50%;*/
+	margin-left: -600px;
+	/*margin-bottom: 100px;*/
+}
+
+#trace {
+	position: absolute;
+	z-index: 2;
+	bottom: 10%;
+	width: 1200px;
+	left: 50%;
+	margin-left: -600px;
+	margin-bottom: -30px;
+	opacity: 1;
+}
+
+#person {
+	position: absolute;
+	z-index: 8;
+	bottom: 10%;
+	width: 20px;
+	left: 50%;
+	margin-left: 580px;
+	margin-bottom: 10px;
+}
+
+#box {
+	position: absolute;
+	z-index: 4;
+	top: 20%;
+	height: 80%;
+
+	left: 50%;
+	margin-left: -400px;
+	width: 100%;
+	background-color: white;
+}
+
+
+#box2 {
+	position: absolute;
+	/*bottom: 0px;*/
+	z-index: 4;
+	height: 100%;
+
+	bottom: 10%;
+	margin-bottom: 130px;
+
+	left: 0px;
+	width: 100%;
+	background-color: white;
+}
+ 
+#ppl {
+	position: absolute;
+	z-index: 8;
+	bottom: 10%;
+	width: 380px;
+	left: 50%;
+	margin-left: -190px;
+	margin-bottom: -10px;
+	opacity: 1;
+}
+
+#star {
+	position: absolute;
+	z-index: 2;
+	bottom: 10%;
+	width: 360px;
+	left: 50%;
+	margin-left: -180px;
+	margin-bottom: 140px;
+	opacity: 1;
+}
+
+
+/* poem */
 .poem {
 	color: black;
 
@@ -94,6 +203,7 @@ body {
 	letter-spacing: 0px;
 	
 	position: absolute;
+	z-index: 200;
 	width: 100%;
 	text-align: center;
 	top: 50%;
@@ -103,10 +213,20 @@ body {
 }
 
 #poem_1 {
-	/*opacity: 0;*/
+	opacity: 0;
 }
 
+#poem_2 {
+	margin-top: -60px;
+	opacity: 0;
+}
 
+#poem_3 {
+	opacity: 0;
+	margin-left: 154px;
+	margin-top: 20px;
+	opacity: 0;
+}
 
 
 
