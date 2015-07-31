@@ -1,4 +1,4 @@
-Haiku Poems by Richard Wright (https://haiku-story.herokuapp.com/)
+# Haiku Poems by Richard Wright 
 
 - Technology: Heroku, Node.js, jQuery
 - Visual reference: Korean engraving artist 'Cheolsu Lee' (https://www.mokpan.com/)
