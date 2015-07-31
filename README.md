@@ -1,5 +1,7 @@
 ## Haiku Poems by Richard Wright 
 
+I see Haiku as a careful 'selection' of words.
+
 
 - Technology: Heroku, Node.js, jQuery
 - Visual reference: Korean engraving artist 'Cheolsu Lee' (https://www.mokpan.com/)
