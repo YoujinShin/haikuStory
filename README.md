@@ -1,4 +1,4 @@
-## Haiku Poems by Richard Wright 
+### Haiku Poems 
 
 I see Haiku as a careful 'selection' of words.
 It's like oriental paintings with 'beauty of space'.
