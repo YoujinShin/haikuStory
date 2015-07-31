@@ -4,17 +4,23 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
-	<title>HaiKu Da</title>
+	<title>HaiKu</title>
 </head>
 
 <body>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="/js/d3.min.js"></script>
 
-<!-- 	<div id="bttn_1"></div>
-	<div id="bttn_2"></div>
-	<div id="bttn_3"></div> -->
-	
+	<!-- button -->
+	<div id="bttn_1" class="bttn"></div>
+	<div id="bttn_2" class="bttn"></div>
+	<div id="bttn_3" class="bttn"></div>
+	<div id="title">
+		Haiku Poems<br>
+		by Richard Wright
+	</div>
+
+	<!-- first	 -->
 	<div class="1_img">
 		<img src="/img/1_mountain.png" id="mountain">
 		<img src="/img/1_ship3.png" id="ship">
@@ -26,8 +32,17 @@
 			A red sinking autumn sun <br>
 			Took my name away.
 		<div>
+		<!-- <embed id="sound_1" src="river_sound.wav" hidden="true" autostart="true"> -->
+	</div>
 
-		<embed id="sound_1" src="river_sound.wav" hidden="true" autostart="true">
+
+	<div class="2_img">
+		
+		<div id="poem_2" class="poem">
+			This autumn evening<br>
+			Is full of an empty sky<br>
+			And one empty road.
+		</div>
 	</div>
 	
 	<script src="/js/main.js"></script>
