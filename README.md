@@ -1,6 +1,4 @@
-Haiku Poems by Richard Wright
-
-https://haiku-story.herokuapp.com/
+Haiku Poems by Richard Wright (https://haiku-story.herokuapp.com/)
 
 - Technology: Heroku server, Node.js, jQuery
 - Visual reference: 
